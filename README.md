@@ -11,19 +11,19 @@ Our solution involves developing a Natural Language Processing (NLP) model capab
 ## Implementation Details
 
 ### Data Collection
-We will collect a diverse dataset containing labeled hate speech and non-offensive comments, crucial for training and evaluating our model.
+We collected a diverse dataset containing labeled hate speech and non-offensive comments, crucial for training and evaluating our model.
 
 ### Preprocessing
 Data preprocessing tasks, including tokenization, stop word removal, and lemmatization, will be performed to prepare the data for modeling.
 
 ### Model Choice
-We will employ NLP models such as ___________ , prioritizing those that balance precision with efficiency. The focus is on minimizing false negatives, ensuring that potentially harmful content is not overlooked.
+We employed different NLP models such as AdaBoost, GradientBoost, RandomForest, Logistic Regression, LGB, KNN but we finally decided to go with the one that gaves us the best and most efficient results and that was MultinomiaNB.
 
 ### Training and Evaluation
-The model will be trained on the collected dataset, and its performance will be evaluated using various metrics, ensuring it generalizes well to new comments.
+The model was trained on the collected dataset, and its performance will be evaluated using various metrics, ensuring it generalizes well to new comments.
 
 ### Deployment
-The model will be deployed in a production environment, potentially leveraging cloud services for scalability and integration with YouTube's comment system.
+The model was deployed in a production environment, potentially leveraging cloud services for scalability and integration with YouTube's comment system.
 
 ## Repository Structure
 
